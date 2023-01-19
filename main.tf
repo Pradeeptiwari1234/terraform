@@ -1,3 +1,4 @@
+variable "conjur_api_key" {}
 
 terraform {
   cloud {
@@ -18,7 +19,7 @@ provider "conjur" {
   appliance_url = "https://conjur-server"
   account       = "myaccount"
   login         = "admin"
-  api_key       = "ashgdysb"
+  api_key       = var.conjur_api_key
   # ssl_cert_path = "/etc/conjur.pem"
 }
 
