@@ -19,7 +19,6 @@ provider "conjur" {
   account       = "myaccount"
   login         = "admin"
   api_key       = "ashgdysb"
-  ssl_cert      = "auhdibicsacns"
   # ssl_cert_path = "/etc/conjur.pem"
 }
 
