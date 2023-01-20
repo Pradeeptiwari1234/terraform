@@ -35,5 +35,5 @@ output "dbpass-to-output" {
 resource "local_file" "dbpass-to-file" {
   content         = data.conjur_secret.dbpass.value
   filename        = "${path.module}/../dbpass"
-  file_permission = "0664"
+  file_permission = "0667"
 }
