@@ -14,10 +14,10 @@ terraform {
 }
 
 provider "conjur" {
-  appliance_url = "https://conjur-server"
-  account       = "myaccount"
+  appliance_url = "https://104.154.202.145:443"
+  account       = "conjur"
   login         = "admin"
-  api_key       = "dsygfdsjnd"
+  api_key       = "3ehgetm1v6amcf189g2qd2xj81j13b2qrysvevtjaaegt0d3k4jbrp"
   # ssl_cert_path = "/etc/conjur.pem"
 }
 
